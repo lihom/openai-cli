@@ -5,7 +5,7 @@
 1. python 3.10 or above
 ```
 mac: https://formulae.brew.sh/formula/python@3.10
-linux: https://computingforgeeks.com/how-to-install-python-on-debian-linux/
+linux: https://computingforgeeks.com/how-to-install-python-on-debian-linux
 ```
 
 2. pip install (refs: https://www.maxlist.xyz/2019/07/13/pip-install-python/)
@@ -26,6 +26,8 @@ pip install openai
 [Video Tutorial] (https://www.youtube.com/watch?v=nafDyRsVnXU)
 
 ## Create .py file put code into file
+
+### GPT
 
 ``` bash
 vi gpt.py
@@ -168,6 +170,8 @@ class myGpt:
 myGpt()
 ```
 
+### DALL.E
+
 ``` bash
 vi dall.py
 ```
@@ -282,6 +286,7 @@ python3.10 gpt.py "How important grid system please describe it." 1000 --model="
 ```
 
 ``` bash
+# Add request for 1 256x256 size picture.
 # DALL.E only support 256x256, 512x512, 1024x1024 three size.
 python3.10 dall.py "A openAI self-portrait." 1 --image_size="256x256"
 ```
@@ -290,7 +295,6 @@ python3.10 dall.py "A openAI self-portrait." 1 --image_size="256x256"
 Your env property not have python cli, you can check /usr/bin folder, find your python3.10 bin file, in my case my python3.10 in /usr/local/bin/python3.10.
 
 ``` bash
-# If you want to use python in command run those command. (or use python3.10 gpt.py)
-
+# If you want to use python in command run those command.
 sudo ln -s /usr/local/bin/python3.10 /usr/bin/python
 ```

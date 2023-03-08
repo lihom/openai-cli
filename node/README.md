@@ -25,6 +25,8 @@ npm install csv
 
 ## Create .js file put code into file
 
+### GPT
+
 ``` bash
 vi gpt.js
 ```
@@ -226,6 +228,8 @@ class myGpt {
 new myGpt();
 ```
 
+### DALL.E
+
 ``` bash
 vi dall.js
 ```
@@ -362,6 +366,7 @@ node gpt.js "How important grid system please describe it." 1000 --model="gpt-3.
 ```
 
 ``` bash
+# Add request for 1 256x256 size picture.
 # DALL.E only support 256x256, 512x512, 1024x1024 three size.
 node dall.js "A openAI self-portrait." 1 --image_size="256x256"
 ```
