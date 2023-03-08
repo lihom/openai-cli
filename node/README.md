@@ -3,7 +3,14 @@
 ## Env require
 
 1. node 8.x and 10.x
+```
+mac: https://formulae.brew.sh/formula/node
+linux: apt install nodejs
+```
 2. npm (version check: https://nodejs.org/zh-cn/download/releases/)
+```
+linux: apt install npm
+```
 
 ## Install
 

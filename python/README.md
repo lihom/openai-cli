@@ -2,7 +2,12 @@
 
 ## Env require
 
-1. python 3.10 or above (refs: https://computingforgeeks.com/how-to-install-python-on-debian-linux/)
+1. python 3.10 or above
+```
+mac: https://formulae.brew.sh/formula/python@3.10
+linux: https://computingforgeeks.com/how-to-install-python-on-debian-linux/
+```
+
 2. pip install (refs: https://www.maxlist.xyz/2019/07/13/pip-install-python/)
 ```
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
@@ -282,9 +287,14 @@ python3.10 dall.py "A openAI self-portrait." 1 --image_size="256x256"
 ```
 
 * tips:
-Your env property not have python cli, you can check /usr/bin folder, find your python bin file, in my case my python in /usr/local/bin/python3.10.
+Your env property not have python cli, you can check /usr/bin folder, find your python3.10 bin file, in my case my python in /usr/bin/python3.
 
 ``` bash
 # If you want to use python in command run those command. (or use python3.10 gpt.py)
+
+# mac:
+sudo ln -s /usr/bin/python3 /usr/bin/python
+
+# linux:
 sudo ln -s /usr/local/bin/python3.10 /usr/bin/python
 ```
