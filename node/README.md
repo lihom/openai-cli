@@ -345,11 +345,16 @@ node gpt.js "Describe your self." 255
 ```
 
 ``` bash
-# Use Act Prompts.
-node gpt.js "How important grid system please describe it." 1000 "Web Design Consultant"
+# Use act prompts.
+node gpt.js "How important grid system please describe it." 1000 --act="Web Design Consultant"
+```
+
+``` bash
+# Use model.
+node gpt.js "How important grid system please describe it." 1000 --model="gpt-3.5-turbo"
 ```
 
 ``` bash
 # DALL.E only support 256x256, 512x512, 1024x1024 three size.
-node dall.js "A openAI self-portrait." 1 "256x256"
+node dall.js "A openAI self-portrait." 1 --image_size="256x256"
 ```
