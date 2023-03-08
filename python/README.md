@@ -287,14 +287,10 @@ python3.10 dall.py "A openAI self-portrait." 1 --image_size="256x256"
 ```
 
 * tips:
-Your env property not have python cli, you can check /usr/bin folder, find your python3.10 bin file, in my case my python in /usr/bin/python3.
+Your env property not have python cli, you can check /usr/bin folder, find your python3.10 bin file, in my case my python3.10 in /usr/local/bin/python3.10.
 
 ``` bash
 # If you want to use python in command run those command. (or use python3.10 gpt.py)
 
-# mac:
-sudo ln -s /usr/bin/python3 /usr/bin/python
-
-# linux:
 sudo ln -s /usr/local/bin/python3.10 /usr/bin/python
 ```
