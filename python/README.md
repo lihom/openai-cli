@@ -272,7 +272,7 @@ python3.10 gpt.py "How important grid system please describe it." 1000 --act="We
 ```
 
 ``` bash
-# Use act prompts.
+# Use model.
 python3.10 gpt.py "How important grid system please describe it." 1000 --model="gpt-3.5-turbo"
 ```
 
