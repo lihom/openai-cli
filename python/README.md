@@ -155,7 +155,7 @@ class myGpt:
     return default_value
 
   def parseActPrompt(self, act):
-    with open('../prompts.csv', newline = '') as csvfile:
+    with open('../awesome-chatgpt-prompts/prompts.csv', newline = '') as csvfile:
       rows = csv.DictReader(csvfile)
 
       for row in rows:

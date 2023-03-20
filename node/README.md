@@ -187,7 +187,7 @@ class myGpt {
     let rows = [];
     let keys = [];
 
-    fs.createReadStream('../prompts.csv')
+    fs.createReadStream('../awesome-chatgpt-prompts/prompts.csv')
       .pipe(csv.parse())
       .on('data', (data) => {
         if (keys.length == 0)
